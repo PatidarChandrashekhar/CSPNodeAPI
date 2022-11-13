@@ -1,0 +1,65 @@
+###Get a list of all Transaction
+GET http://localhost:4000/Transaction
+
+### Create a Transaction
+POST http://localhost:4000/Transaction
+Content-Type: application/json
+
+{
+  "name": "Patidar Pro",
+  "price": 500
+}
+
+### GET a Transaction by id
+GET http://localhost:4000/Transaction/5df118b3c86e5826958b661a
+
+### Update a Transaction by id
+PATCH  http://localhost:4000/Transaction/5df118b3c86e5826958b661a
+Content-Type: application/json
+
+{
+  "price": 5999
+}
+
+
+### Delete a Transaction by id
+DELETE  http://localhost:4000/Transaction/5df118b3c86e5826958b661a
+
+### 404 route Not Found
+GET http://localhost:4000/abc_xyz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#hrXWgw4Q127uqZJ3
